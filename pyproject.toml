@@ -1,5 +1,5 @@
 [build-system]
-requires = ["setuptools==69.5", "wheel", "Cython", "numpy", "setuptools-scm", "cmake_build_extension"]
+requires = ["setuptools==69", "wheel", "Cython", "numpy", "setuptools-scm", "cmake_build_extension"]
 build-backend = "setuptools.build_meta"
 
 [tool.setuptools]
