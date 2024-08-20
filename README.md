@@ -62,6 +62,6 @@ Vaa3D source: https://github.com/Vaa3D/v3d_external
 Documentation: https://SEU-ALLEN-codebase.github.io/v3d-py-helper
 
 # Contact
-Main Developer: Zuohan Zhao
-My GitHub Page: https://github.com/zzhmark
+Main Developer: Zuohan Zhao  
+My GitHub Page: https://github.com/zzhmark  
 Email: zzhmark@126.com
