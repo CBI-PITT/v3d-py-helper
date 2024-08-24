@@ -316,7 +316,7 @@ setup(
         '3rdparty/libtiff',
         source_dir=str(Path('3rdparty/libtiff').absolute()),
         cmake_configure_options=['-DBUILD_SHARED_LIBS=OFF', '-Dtiff-tests=OFF', '-Dtiff-tools=OFF', '-Dtiff-docs=OFF', '-Dmdi=OFF',
-                                ['-Djpeg=OFF', '-Dzlib=OFF', '-Dzstd=OFF', '-Dlzma=OFF', '-Djbig=OFF', '-Dwebp=OFF']
+                                '-Djpeg=OFF', '-Dzlib=OFF', '-Dzstd=OFF', '-Dlzma=OFF', '-Djbig=OFF', '-Dwebp=OFF']
     )] + extensions,
     cmdclass=dict(
         # Enable the CMakeExtension entries defined above
