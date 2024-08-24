@@ -52,6 +52,10 @@ img = t.get_sub_volume(start[0], end[0], start[1], end[1], start[2], end[2])
 
 On Windows, MS BuildTool >= 16 is required to build the wheel.
 
+Newer setuptools seem to be buggy.
+
+Once successfully installed, the package can still report import error, which suggests some of the runtime libs, especially those related with compression, are missing in you machine.
+
 
 ## Useful Links
 
