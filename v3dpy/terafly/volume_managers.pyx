@@ -144,8 +144,8 @@ cdef bint intersects_rect(Block block, const Rect& area, Rect& out):
 
 cdef class TiledVolume(VirtualVolume):
     cdef:
-        Public uint16_t N_ROWS, N_COLS  # <-- Static type declarations
-        Public list BLOCKS  # <-- Declare a 2D C-style array of Blocks
+        public uint16_t N_ROWS, N_COLS  # <-- Static type declarations
+        public list BLOCKS  # <-- Declare a 2D C-style array of Blocks
         int32_t reference_system_first, reference_system_second, reference_system_thrid
         float VXL_1, VXL_2, VXL_3
 
